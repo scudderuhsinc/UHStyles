@@ -1,1 +1,1 @@
-@media (min-width: 980px){.list-item{border-bottom:1px solid #E5E9EC}}@media (min-width: 768px){.list-item{border-bottom:1px solid #E5E9EC;margin:0 20px}}@media (max-width: 767px){.list-item{border-bottom:1px solid #E5E9EC;margin:0 30px}}
+.header-container{background-color:aqua}.footer-container{background-color:aqua}@media (min-width: 980px){.list-item{border-bottom:1px solid #E5E9EC}}@media (min-width: 768px){.list-item{border-bottom:1px solid #E5E9EC}}@media (max-width: 767px){.list-item{border-bottom:1px solid #E5E9EC}}

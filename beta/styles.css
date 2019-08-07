@@ -3,7 +3,7 @@
  * title: Design Standard
  * author: The Agency @ UHS, inc.
  * version: beta
- * description: Principles and Scope
+ * description: Principles and Scope here
  */
 /*
  * base/typography
@@ -85,26 +85,6 @@ body > .main-container {
   width: 960px;
 }
 
-@media (min-width: 980px) {
-  .list-item {
-    border-bottom: 1px solid #E5E9EC;
-  }
-}
-
-@media (min-width: 768px) {
-  .list-item {
-    border-bottom: 1px solid #E5E9EC;
-    margin: 0 20px;
-  }
-}
-
-@media (max-width: 767px) {
-  .list-item {
-    border-bottom: 1px solid #E5E9EC;
-    margin: 0 30px;
-  }
-}
-
 .header-container {
   background-color: aqua;
 }
@@ -138,7 +118,9 @@ p {
 
 @media (min-width: 768px) {
   .container-row {
+    width: 100%;
     max-width: 1024px;
+    margin: 0 auto;
     padding: 0 20px;
   }
 }
