@@ -1,0 +1,1 @@
+@media (min-width: 980px){.container-row{max-width:1140px}}@media (min-width: 768px){.container-row{max-width:1024px;padding:0 20px}}@media (max-width: 767px){.container-row{width:100%;max-width:960px;margin:0 auto;padding:0 30px}}.container-row{display:flex;flex-direction:row;flex-wrap:wrap}
