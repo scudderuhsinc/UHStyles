@@ -1,0 +1,30 @@
+/*
+ * base/reset
+ */ß
+body {
+    text-align: center;
+    > .header-container,
+    > .footer-container {
+        text-align:left;
+        width: 100%;
+        margin: 0;
+        > .main-container {
+            margin: 30 auto;
+        }
+    }
+    > .main-container {
+      text-align:left;
+      margin:0 auto;
+      width:960px;
+    }
+  }
+
+.header-container { background-color: aqua; }
+.footer-container { background-color: aqua; }
+
+ul {
+    padding: 20px 30px;
+    background-color: #f7f7f7;
+}
+li { color: #333333; margin-bottom:12px; }
+p { color: #1d1b1b; }
