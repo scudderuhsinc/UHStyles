@@ -51,6 +51,22 @@ h4 {
   font-weight: 400;
 }
 
+/* Non-DOM Header*/
+.hdr-lg {
+  font-size: 48px;
+  margin-bottom: 1em;
+}
+
+.hdr-md {
+  font-size: 24px;
+  margin-bottom: .5em;
+}
+
+.hdr-sm {
+  font-size: 12px;
+  margin-bottom: .25em;
+}
+
 p {
   font-size: 18px;
   line-height: 25px;

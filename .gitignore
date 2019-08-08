@@ -5,3 +5,4 @@
 *.scss.map
 *.htm
 *.html
+!beta/index.html
