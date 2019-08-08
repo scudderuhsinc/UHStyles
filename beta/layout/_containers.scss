@@ -2,12 +2,12 @@
  * layout/containers
  */
 @media (min-width: 980px) {
-    .container-row {
+    .container-main {
         max-width: 1140px;
     }
 }
 @media (min-width: 768px) {
-    .container-row {
+    .container-main {
         width: 100%;
         max-width: 1024px;
         margin: 0 auto;
@@ -15,15 +15,21 @@
     }
 }
 @media (max-width: 767px) {
-    .container-row {
+    .container-main {
         width: 100%;
         max-width: 960px;
         margin: 0 auto;
         padding: 0 30px;
     }
 }
+.container-main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
 .container-row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin: 0 0 30px 0;
 }

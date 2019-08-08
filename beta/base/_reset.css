@@ -1,38 +1,3 @@
 /*
  * base/reset
  */
-body {
-  text-align: center;
-}
-
-body > .header-container,
-body > .footer-container {
-  text-align: left;
-  width: 100%;
-  margin: 0;
-}
-
-body > .header-container > .main-container,
-body > .footer-container > .main-container {
-  margin: 30 auto;
-}
-
-body > .main-container {
-  text-align: left;
-  margin: 0 auto;
-  width: 960px;
-}
-
-ul {
-  padding: 20px 30px;
-  background-color: #f7f7f7;
-}
-
-li {
-  color: #333333;
-  margin-bottom: 12px;
-}
-
-p {
-  color: #1d1b1b;
-}
