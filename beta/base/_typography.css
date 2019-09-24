@@ -1,26 +1,38 @@
 /*
  * base/typography
  */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 1.25rem;
+}
+
 h1 {
-  font-size: 60px;
+  font-size: 3.75rem;
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 3rem;
 }
 
 h3 {
-  font-size: 32px;
+  font-size: 2rem;
 }
 
 h4 {
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 h5 {
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 h6 {
-  font-size: 10px;
+  font-size: 0.625rem;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.indentation-1x {
+  margin: 0 1.25rem;
 }
