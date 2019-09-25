@@ -1,6 +1,15 @@
 /*
  * base/typography
  */
+body {
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 25px;
+  color: #3b4045;
+  font-family: 'Josefin Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1.25rem;
 }
