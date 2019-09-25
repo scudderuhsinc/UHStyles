@@ -6,9 +6,6 @@
  * description: Principles and Scope here
  */
 /*
- * base/reset
- */
-/*
  * base/typography
  */
 body {
@@ -398,7 +395,3 @@ body, #top {
 .pad {
   padding: 15px 20px;
 }
-
-/*
- * utils/variables
- */
