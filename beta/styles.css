@@ -1,7 +1,8 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
 /*
  * title: Design Standard
- * author: The Agency @ UHS, inc.
+ * author: The Agency @ Universal Health Services, inc.
  * version: beta
  * description: Principles and Scope here
  */
@@ -274,6 +275,32 @@ p {
   width: 8.333%;
 }
 
+.grid-container > .grid-row > [class^="grid-"]:first-child > *:not(.grid-col),
+.grid-container > .grid-row > [class^="grid-"]:first-child > div:not([class^="grid-"]),
+.grid-container > .grid-col > [class^="grid-"]:first-child > div:not([class^="grid-"]) {
+  padding-left: 20px;
+  padding-right: 5px;
+}
+
+/*  .grid-col > [class^="grid-"]:first-child > *, */
+.grid-container > .grid-row > [class^="grid-"]:last-child > [class^="grid-"]:not(.grid-col),
+.grid-container > .grid-row > [class^="grid-"]:last-child > [class^="grid-"]:not(.grid-col),
+.grid-container > .grid-col > [class^="grid-"]:last-child > [class^="grid-"]:not(.grid-col) {
+  padding-left: 5px;
+  padding-right: 20px;
+}
+
+/*  .grid-col > [class^="grid-"]:last-child > *, */
+.grid-container > .grid-row > [class^="grid-"] > *:not([class^="grid-"]),
+.grid-container > .grid-col > [class^="grid-"] > *:not([class^="grid-"]) {
+  padding: 0 5px;
+}
+
+.grid-row > [class^="grid-"]:only-child > *:not([class^="grid-"]),
+.grid-col > [class^="grid-"]:only-child > *:not([class^="grid-"]) {
+  padding: 0 20px;
+}
+
 /*
  * layout/containers
  */
@@ -368,13 +395,22 @@ body, #top {
     width: 100%;
     max-width: 1180px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 10px;
   }
   .grid-row {
     width: 100%;
     max-width: 1180px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 10px 0;
+  }
+  .grid-container > [class^="grid-"]:not(.grid-col) {
+    padding: 5px 0;
+  }
+  .grid-container > [class^="grid-"]:first-child:not(.grid-col) {
+    padding: 10px 0 5px 0;
+  }
+  .grid-container > [class^="grid-"]:last-child:not(.grid-col) {
+    padding: 5px 0 10px 0;
   }
 }
 
@@ -394,4 +430,19 @@ body, #top {
 
 .pad {
   padding: 15px 20px;
+}
+
+.full-width.rm_margins {
+  margin: 0;
+}
+
+.full-width.rm_margin-bottom {
+  margin: 40px 0 0 0;
+}
+
+.full-width.rm_margin-top {
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom:  40px;
+  margin-left: 0;
 }
