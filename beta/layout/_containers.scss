@@ -20,7 +20,7 @@ body, #top { margin: 0; }
     flex-direction: column;
     flex-wrap: nowrap;
 }
- @media (max-width: 575px) and (min-width: 576px){
+@media (max-width: 575px) and (min-width: 576px){
     .main {
       margin: 0;
       padding: 0 15px; 
@@ -101,18 +101,31 @@ body, #top { margin: 0; }
         padding: 5px 0 10px 0;
      }
 }
-
 /* @media (min-width: 992px) */
 /* @media (min-width: 1200px) */
-.call-out_lt-grey { background-color: #f4f4f4; }
-.call-out_alt-grey { background-color: #e4e4e4; }
-.call-out_grey { background-color: #b5aeae; }
-.pad { padding: 15px 20px; }
-.full-width.rm_margins { margin: 0; }
-.full-width.rm_margin-bottom { margin: 40px 0 0 0; }
+.call-out_lt-grey {     background-color: #f4f4f4;  }
+.call-out_grey {        background-color: #b5aeae;  }
+.call-out_alt-grey {    background-color: #e4e4e4;  }
+.pad {                          padding: 15px 20px;   }
+.full-width.rm_margins {        margin: 0;            }
+.full-width.rm_margin-bottom {  margin: 40px 0 0 0;   }
 .full-width.rm_margin-top {
     margin-top: 0;
     margin-right: 0;
     margin-bottom: 40px;
     margin-left: 0;
 }
+/* js friendly */
+.containerrow {                 @extend .container-row;               }
+.containerinner_col {           @extend .container-inner_col;         }
+.fullwidth {                    @extend .full-width;                  }
+.fullwidth-inner {              @extend .full-width-inner;            }
+.gridcontainer {                @extend .grid-container;              }
+.gridcol {                      @extend .grid-col;                    }
+.gridrow {                      @extend .grid-row;                    }
+.callout_ltgrey {               @extend .call-out_lt-grey;            }
+.callout_grey {                 @extend .call-out_grey;               }
+.callout_altgrey {              @extend .call-out_alt-grey;           }
+.fullwidth.rm_margins {         @extend .full-width.rm_margins;       }
+.fullwidth.rm_marginbottom {    @extend .full-width.rm_margin-bottom; }
+.fullwidth.rm_margintop {       @extend .full-width.rm_margin-top;    }

@@ -226,7 +226,6 @@
   padding-right: 5px;
 }
 
-/*  .grid-col > [class^="grid-"]:first-child > *, */
 .grid-container > .grid-row > [class^="grid-"]:last-child > [class^="grid-"]:not(.grid-col),
 .grid-container > .grid-row > [class^="grid-"]:last-child > [class^="grid-"]:not(.grid-col),
 .grid-container > .grid-col > [class^="grid-"]:last-child > [class^="grid-"]:not(.grid-col) {
@@ -234,7 +233,6 @@
   padding-right: 20px;
 }
 
-/*  .grid-col > [class^="grid-"]:last-child > *, */
 .grid-container > .grid-row > [class^="grid-"] > *:not([class^="grid-"]),
 .grid-container > .grid-col > [class^="grid-"] > *:not([class^="grid-"]) {
   padding: 0 5px;
@@ -244,3 +242,5 @@
 .grid-col > [class^="grid-"]:only-child > *:not([class^="grid-"]) {
   padding: 0 20px;
 }
+
+/* js friendly */
